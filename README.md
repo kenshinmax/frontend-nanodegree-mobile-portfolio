@@ -41,3 +41,5 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 - Event handler now iterates through pizza elements on the page and changes their width (elem.style.width)
 - Updated the selector to getElementsByClassName to optimize the selection of elements on the page
 - Using a global variable (randomPizzaContainer) so that there is no need to look up this value during iteration
+- Updated changePizzaSizes so that the phase variable is outside the loop, simplified the transform function
+- Modified EventListener to use the translateX context of the transform property
